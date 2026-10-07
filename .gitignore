@@ -1,5 +1,23 @@
-venv/
+# Python
 __pycache__/
+*.py[cod]
+venv/
+.env
+*.egg-info/
+
+# Node
+node_modules/
+dist/
+.env.local
+
+# Docker
+postgres_data/
+
+# IDE
 .idea/
 .vscode/
-*.pyc
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
